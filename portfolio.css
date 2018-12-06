@@ -1,0 +1,118 @@
+@charset "utf-8";
+/*intro page code starts here*/
+h1{
+	color: goldenrod;}
+
+#aboutMe {
+    padding: 35px, 35px, 50px, 35px;
+}
+
+nav{
+	background-color: transparent;
+}
+.intro{
+font-family: proxima-nova-extra-condensed, sans-serif;
+font-weight: 200;
+font-style: normal;
+font-size: 1.42em;
+	line-height: 2em;
+
+}
+#homeBanner{
+-webkit-background-size: 100%; 
+		-moz-background-size: 100%; 
+		-o-background-size: 100%; 
+		background-size: 100%;
+		background-size: cover;
+}
+img{
+	border-radius: 50%;
+}
+#right {
+  background:#eee;
+  width: 800px;
+  height:auto;
+	padding-top: 75pt;
+	padding-left: 75pt;
+	float:right;
+	
+	background-color: transparent;
+}
+.secondary{
+	text-align: center;
+}
+	.main{
+		font-size: 25pt;
+		text-align: right;
+		padding-left: 75pt;
+} 
+
+#content{
+padding-top: 60px;
+	padding-bottom: 80px;
+}
+#content p{
+	 margin-left: auto;
+    margin-right: 50px;
+    width: 50em;
+	height: 8em;
+	text-align:center;
+	background: white;
+}
+.circle{
+	 position: inherit;
+	height: 230px;
+  width: 270px;
+  background-color: #f00;
+  border-radius: 50%;
+	float: right;
+	margin-right: 10px;
+	
+}
+#left {
+  background:#c00;
+  width: 200px;
+  height:auto;
+  float:left;
+}
+#downButton {
+  opacity: 1;
+  -webkit-transition: all .5s ease-in 3s;
+  transition: all .5s ease-in 3s;
+}
+
+#downButton {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  margin-left: -16px;
+  display: block;
+background-color: black;
+  width: 32px;
+  height: 32px;
+  border: 2px solid #FFF;
+  background-size: 14px auto;
+  border-radius: 50%;
+  z-index: 2;
+  -webkit-animation: bounce 2s infinite 2s;
+  animation: bounce 2s infinite 2s;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+  transform: scale(1)
+}
+
+#downButton:before {
+    position: absolute;
+    top: calc(50% - 8px);
+    left: calc(50% - 6px);
+    transform: rotate(-45deg);
+    display: block;
+    width: 12px;
+    height: 12px;
+    content: "";
+    border: 2px solid white;
+    border-width: 0px 0 2px 2px;
+}
+
+
+/*intro page code ends here*/
